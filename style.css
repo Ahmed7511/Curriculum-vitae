@@ -22,8 +22,8 @@
 { 
     display: flex;
     flex-direction: column;
-    width: 25%;
-    background-color: rgb(171, 217, 231);
+    width: 35%;
+    background-color: rgb(175, 90, 164);
     height: auto;
 }   
 #perso p
@@ -33,7 +33,7 @@
 }
 #perso h1
 {
-    color:   rgb(171, 217, 231);
+    color:    rgb(175, 90, 164);
     background-color: black;
     text-align: center;
     margin-bottom: 30px;
@@ -46,7 +46,7 @@
 }
 .ma_photo>img
 { 
-    transform: scale(0.6);
+    transform: scale(1);
     border-radius: 50%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);     
     width: auto;
@@ -92,17 +92,16 @@ a:hover
 
 #info h2
 {
-    border-bottom:2px solid  rgb(171, 217, 231);
     text-transform: uppercase;
 }
-span
-{
-    border-bottom:1px solid   rgb(171, 217, 231);
+h3{
+    color: mediumblue;
+    text-transform: uppercase;
 }
 em
 {
     margin-right: 15px;
-    color:  rgb(171, 217, 231);
+    color:   rgb(175, 90, 164);
 }
 .element
 {
@@ -121,7 +120,9 @@ ul
 {
     list-style-type: none;
 }
-
+span{
+    font-weight: bold ;
+}
 @media screen and (max-width:760px)
 {
    
